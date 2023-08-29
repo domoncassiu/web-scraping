@@ -18,4 +18,41 @@
 > [!NOTE]
 > 可执行文件依赖chrome浏览器以及appium环境进行数据抓取，需要进一步配置。
 
+如需在本地配置项目环境可参考如下步骤：
+
+1. 安装谷歌浏览器: [下载链接](https://www.google.com/chrome/)
+2. 安装依赖: ```pip install -r requirements.txt```
+3. 配置appium安卓自动化环境: 由于appium环境较为复杂且无法进行打包，可参考[此文章](https://blog.csdn.net/u010454117/article/details/122531278?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169329147616800192279737%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169329147616800192279737&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-122531278-null-null.142^v93^chatgptT3_2&utm_term=windows%20appium&spm=1018.2226.3001.4187)进行配置。
+   - JDK 1.8
+   - Android-SDK 34
+   - Node.js：node-v18.16.0
+   - Appium 2.0.0
+4. 将安卓手机连接电脑并打开开发者调试功能:[如何打开开发者模式](https://developer.android.com/studio/debug/dev-options)
+     
+配置成功后结果如下：
+```
+$ java -version
+java version "14.0.2" 2020-07-14
+Java(TM) SE Runtime Environment (build 14.0.2+12-46)
+Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
+
+$ adb version
+Android Debug Bridge version 1.0.41
+Version 34.0.3-10161052
+Installed as /Users/domoncassiu/Library/Android/sdk/platform-tools/adb
+Running on Darwin 22.3.0 (x86_64)
+
+$ node -v
+v18.16.0
+
+$ npm -v
+9.5.1
+
+$ appium -v
+2.0.0
+
+$ adb devices
+List of devices attached
+3214c552	device
+```
 
