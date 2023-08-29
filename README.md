@@ -60,3 +60,5 @@ List of devices attached
 
 ### 今日头条模块
 运用selenium自动化工具在今日头条网站上对知名财经博主进行数据抓取，每日抓取当日更新的文章的播放量，点赞总数，以及文章下的所有用户评论及其点赞数量。将整合后的数据存入mongodb数据库并以图表的方式进行呈现。
+
+![](https://github.com/domoncassiu/web-scraping/blob/main/examples/1.gif)
