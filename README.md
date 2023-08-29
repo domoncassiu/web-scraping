@@ -62,3 +62,12 @@ List of devices attached
 运用selenium自动化工具在今日头条网站上对知名财经博主进行数据抓取，每日抓取当日更新的文章的播放量，点赞总数，以及文章下的所有用户评论及其点赞数量。将整合后的数据存入mongodb数据库并以图表的方式进行呈现。
 
 ![](https://github.com/domoncassiu/web-scraping/blob/main/examples/1.gif)
+
+### 万得数据库模块
+运用自动截图和pyautogui工具在万得数据库中对研报数据进行抓取，并通过cnocr对抓取数据进行自动识别，记录所有研报的名称以及其发布日期。将整合后的数据存入mongodb数据库并以图表的方式进行呈现。
+
+![](https://github.com/domoncassiu/web-scraping/blob/main/examples/2.gif)
+
+### 微信公众号模块
+运用appium自动化工具在安卓手机上对微信公共号文章进行抓取，每日抓取当日更新的文章以及文章链接。将整合后的数据存入mongodb数据库并以图表的方式 进行呈现。
+
