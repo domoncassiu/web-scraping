@@ -69,7 +69,7 @@ List of devices attached
 ![](https://github.com/domoncassiu/web-scraping/blob/main/examples/2.gif)
 
 ### 微信公众号模块
-运用appium自动化工具在安卓手机上对微信公共号文章进行抓取，每日抓取当日更新的文章以及文章链接。将整合后的数据存入mongodb数据库并以图表的方式进行呈现。[查看演示]()
+运用appium自动化工具在安卓手机上对微信公共号文章进行抓取，每日抓取当日更新的文章以及文章链接。将整合后的数据存入mongodb数据库并以图表的方式进行呈现。[查看演示](https://github.com/domoncassiu/web-scraping/blob/main/examples/demo.mov)
 
 ### 前端界面
 运用python-eel将以上工具整合成了gui软件
