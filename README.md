@@ -15,5 +15,7 @@
 ### 环境配置
 
 可在windows环境下直接运行可执行文件[automation_tool.exe](https://github.com/domoncassiu/web-scraping/releases/tag/v0.1.0-alpha)来查看工具运行效果
+> [!NOTE]
+> 可执行文件依赖chrome浏览器以及appium环境进行数据抓取，需要进一步配置。
 
 
