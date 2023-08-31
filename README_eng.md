@@ -68,13 +68,13 @@ This project is mainly divided into three modules: Toutiao Crawler, Wind Databas
 
 Using the selenium automation tool, we crawl data on the Toutiao website from well-known financial bloggers. We crawl the video views, total likes, and all user comments and their likes for the updated articles on the same day. The integrated data is stored in a MongoDB database and presented in a chart.
 
-![](https://github.com/domoncassiu/web-scraping/blob/main/images/1.gif)
+![](https://github.com/domoncassiu/web-scraping/blob/main/examples/1.gif)
 
 ### Wind Database Module
 
 Using automatic screenshot and pyautogui tools, we crawl research report data in the wind database, and use cnocr to automatically recognize the crawled data. We record all research report names and their publication dates. The integrated data is stored in a MongoDB database and presented in a chart.
 
-![](https://github.com/domoncassiu/web-scraping/blob/main/images/2.gif)
+![](https://github.com/domoncassiu/web-scraping/blob/main/examples/2.gif)
 
 ### WeChat Official Account Module
 
@@ -84,7 +84,7 @@ Using appium automation tools, we crawl WeChat public account articles on an And
 
 Using python-eel, we integrated the above tools into a GUI software that can be run by directly running gui.py.
 
-![](https://github.com/domoncassiu/web-scraping/blob/main/images/3.gif)
+![](https://github.com/domoncassiu/web-scraping/blob/main/examples/3.gif)
 
 ## Packaging Project
 
