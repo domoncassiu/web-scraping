@@ -1,3 +1,8 @@
+# 整合式爬虫工具
+This is the english version of the project introduction[English](https://github.com/domoncassiu/web-scraping/blob/main/README.md)
+
+通过以下链接查看中文说明 [Chinese](https://github.com/domoncassiu/web-scraping/blob/main/README_CN.md)
+
 ## Project Introduction
 
 This project is a crawler tool based on multiple open source automation testing tools. Its goal is to collect data on stock market trends from various social media platforms, quantify and summarize various indicators to predict short-term trends.
