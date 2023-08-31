@@ -1,7 +1,7 @@
 # 整合式爬虫工具
-以下为项目的中文版本简介 [Chinese](https://github.com/domoncassiu/web-scraping/blob/main/README.md)
+以下为项目的中文版本简介 [Chinese](https://github.com/domoncassiu/web-scraping/blob/main/README_CN.md)
 
-Redirect to the english introduction [English](https://github.com/domoncassiu/web-scraping/blob/main/README_eng.md)
+Redirect to the english introduction [English](https://github.com/domoncassiu/web-scraping/blob/main/README.md)
 
 ## 项目介绍
 
