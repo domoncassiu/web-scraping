@@ -77,4 +77,38 @@ List of devices attached
 ![](https://github.com/domoncassiu/web-scraping/blob/main/examples/3.gif)
 
 
+
+## 打包项目
+
+可以使用pyinstaller对项目重新进行打包，在项目目录下执行以下代码
+
+```bash
+python -m eel gui.py web -p toutiao.py -p wande.py -p weixin.py --onefile --collect-all snownlp --collect-all cnocr
+```
+
+打包完成后可执行文件会保存在**dist**目录下
+
+
+
+
 ## 问题处理
+
+- 如遇到chrome driver版本不匹配问题，类似代码报错
+
+  ```
+  'unknown error: cannot connect to chrome at 127.0.0.1:98765 from session not created: This version of ChromeDriver only supports Chrome version 114 Current browser version is 116.0.5845.111"
+  ```
+
+  需要更新selenium至最新版本
+
+  ```bash
+  pip install selenium —upgrade
+  ```
+
+- 如遇到mongodb超时问题，类似代码报错
+
+  `````
+  Timed out after 30000 ms while waiting for a server that matches com.mongodb.client.internal.MongoClientDelegate$1@b586e86. Client view of cluster state is {type=REPLICA_SET, servers={, type=UNKNOWN, state=CONNECTING}, {address=, type=UNKNOWN, state=CONNECTING}, {address=](), type=UNKNOWN, state=CONNECTING}]
+  `````
+
+  需要检查网络连接，关闭vpn连接
