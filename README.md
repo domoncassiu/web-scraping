@@ -1,4 +1,4 @@
-# Integrated automated web scraping tool
+# Integrated web scraping tool
 This is the english version of the project introduction [English](https://github.com/domoncassiu/web-scraping/blob/main/README.md)
 
 通过以下链接查看中文说明 [Chinese](https://github.com/domoncassiu/web-scraping/blob/main/README_CN.md)
